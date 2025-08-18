@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "anvil-too-expensive-fix",
+	"version": "${version}",
+	"name": "Anvil Too Expensive Fix",
+	"description": "Simple Fabric Mod that fixes \"Too Expensive\" items.",
+	"authors": [
+		"Eposs"
+	],
+	"license": "MIT",
+	"icon": "assets/anvil-too-expensive-fix/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.eposs.atef.AnvilTooExpensiveFix"
+		]
+	},
+	"mixins": [
+		"anvil-too-expensive-fix.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16",
+		"minecraft": "1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
