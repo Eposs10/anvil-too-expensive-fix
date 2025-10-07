@@ -24,6 +24,7 @@ loom {
 	mods {
 		"anvil-too-expensive-fix" {
 			sourceSet sourceSets.main
+            sourceSet sourceSets.client
 		}
 	}
 
