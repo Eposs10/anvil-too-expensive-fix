@@ -5,5 +5,6 @@ import net.fabricmc.api.ClientModInitializer;
 public class AnvilTooExpensiveFixClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
+        AnvilTooExpensiveFix.LOGGER.info("Client Initialized");
     }
 }
